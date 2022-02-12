@@ -12,8 +12,8 @@
 2. <a href=#environment>개발환경</a> 
 3. <a href=#erd>ERD</a>
 4. <a href=#charge>담당 기능 구현</a>
-5.  프로젝트 파일
-6. 프로젝트를 마치며 
+5. <a href=#file>프로젝트 파일</a>
+6. <a href=#end>프로젝트를 마치며</a> 
 
 ---
 <h5>ㅤ
@@ -129,6 +129,7 @@ tblStudent, tblsugang, tblcounsel, tblmanager의 inner join과
 <h5>ㅤ
 
 
+### 2.  선생님
 #### C-01. 계정관리
 ![c01](https://user-images.githubusercontent.com/95897233/153702055-652b9be9-db97-4f82-ad0e-baf5165b4654.JPG)
 ```
@@ -185,4 +186,87 @@ tbllsubject, tblteacher의 inner join으로 데이터를 출력합니다.
 ```
 distinct, tbllsubject, tbllclass, tblsugang, tblstudent, tblclass, tbllsubject, 
 tblteacher의 inner join으로 데이터를 출력합니다.
+```
+
+#### C-03. 배점입출력
+- 배점 입력
+
+![c03_1_1](https://user-images.githubusercontent.com/95897233/153703328-8ad7b399-eb88-41d1-838f-4e9e3be376b1.JPG)
+![c03_1_2](https://user-images.githubusercontent.com/95897233/153703400-142c76fb-53fd-4131-8d19-af9bc53cb735.JPG)
+```
+if문을 이용해 출석 배점은 20점이상, 총 배점의 합은 100이 되도록 조건을 걸었으며 
+그 외의 경우는 에러 메시지를 출력합니다.
+```
+<h5>ㅤ
+
+<div align="center">▫&nbsp;&nbsp;&nbsp;▫&nbsp;&nbsp;&nbsp;▫</div>  
+<h5>ㅤ
+
+- 배점 수정
+
+![c04_1](https://user-images.githubusercontent.com/95897233/153703545-2d209c5a-3653-4eec-966b-278a411b9df8.JPG)
+![c04_2](https://user-images.githubusercontent.com/95897233/153703572-2caef56e-98b5-4942-964b-12ab98acf601.JPG)
+```
+배점 입력과 마찬가지로 같은 조건을 걸었으며 잘못된 입력시 에러 메시지를 출력합니다.
+```
+[잘못입력시]
+![c03_2](https://user-images.githubusercontent.com/95897233/153704042-ea043ae1-35f4-4dd0-a8d5-5a6a0cfc8341.JPG)
+![c03_3](https://user-images.githubusercontent.com/95897233/153704046-ba847e69-e5e9-45ce-bd02-430f1793bafa.JPG)
+
+<h5>ㅤ
+
+<div align="center">▫&nbsp;&nbsp;&nbsp;▫&nbsp;&nbsp;&nbsp;▫</div>  
+<h5>ㅤ
+
+- 특정 과목을 조회 : 강의를 마친 과목
+
+![c05](https://user-images.githubusercontent.com/95897233/153704106-25eb8e29-029f-47fb-b22a-369212609c80.JPG)
+```
+날짜 조건과 inner join으로 해당 데이터를 출력합니다.
+```
+
+<h5>ㅤ
+
+<div align="center">▫&nbsp;&nbsp;&nbsp;▫&nbsp;&nbsp;&nbsp;▫</div>  
+<h5>ㅤ
+
+- 배점번호로 해당 강의 중 종료된 과목 배점 정보 출력
+
+![c06](https://user-images.githubusercontent.com/95897233/153704236-b2d47444-42ab-447a-bbdc-4902325e0fb4.JPG)
+```
+inner join과 where절로 현재 날짜 기준으로 종료된 강의를 출력합니다.
+```
+
+<h5>ㅤ
+
+<div align="center">▫&nbsp;&nbsp;&nbsp;▫&nbsp;&nbsp;&nbsp;▫</div>  
+<h5>ㅤ
+
+- 문제 추가
+
+![c07](https://user-images.githubusercontent.com/95897233/153704535-fa23978a-cb4f-4f8d-ad3f-65ef2f0721a8.JPG)
+```
+insert와 if문으로 새로운 문제를 추가 할 수 있습니다. 
+```
+<h5>ㅤ
+<h5>ㅤ
+
+
+
+## 5. <a id="file">프로젝트 파일</a>
+<div align="center"/>
+<a href="https://github.com/helloppiok/EducationCenterManagement/files/8053095/default.docx"><img src="https://img.shields.io/badge/요구분석서-EB482C?style=plastic;logoColor=white" style="max-width: 100%;" height= "30"></a>  <a href="https://github.com/helloppiok/EducationCenterManagement/files/8053096/DDL.docx"><img src="https://img.shields.io/badge/테이블정의서(DDL)-F58E1C?style=plastic;logoColor=white" style="max-width: 100%;" height= "30"></a>   <a href="https://github.com/helloppiok/EducationCenterManagement/files/8053097/DML.docx"><img src="https://img.shields.io/badge/테이블정의서(DML)-22B14C?style=plastic;logoColor=white" style="max-width: 100%;" height= "30"></a>
+  <a href="https://github.com/helloppiok/EducationCenterManagement/files/8053108/2.zip"><img src="https://img.shields.io/badge/전체데이터-black?style=plastic;logoColor=white" style="max-width: 100%;" height= "30"></a>  <a href="https://github.com/helloppiok/EducationCenterManagement/files/8053101/5.PPT.pptx"><img src="https://img.shields.io/badge/PPT-026DE5?style=plastic;logoColor=white" style="max-width: 100%;" height= "30"></a>   <a href=" https://github.com/helloppiok/EducationCenterManagement/files/8053102/5.docx"><img src="https://img.shields.io/badge/최종요약본-7A297B?style=plastic;logoColor=white" style="max-width: 100%;" height= "30"></a>
+<h5>ㅤ
+<h5>ㅤ
+
+
+
+## 6. <a id="end">✨프로젝트를 마치며</a>
+```
+처음에 배울 때는 굉장히 쉽다고 느꼈으나 프로젝트를 하면서 생각보다 신경써야 할 것이 많다는걸 알았습니다. 
+가장 시간이 많이 들었던 부분은 inner join할 테이블이 많아질수록 groub by할 부분도 생기고 에러가 발생
+하지는 않지만 결과값이 전혀 다르게 나오는 등 이런 부분들이 새벽작업을 하도록했습니다.
+하지만 직접 데이터를 만들고 생각한 쿼리로 데이터가 나오는 부분이 시원(?)하다는 생각이 들었던 
+그런 점이 저를 즐겁게했던 프로젝트였습니다.
 ```
