@@ -256,7 +256,10 @@ insert와 if문으로 새로운 문제를 추가 할 수 있습니다.
 ## 5. <a id="file">프로젝트 파일</a>
 <div align="center"/>
 <a href="https://github.com/helloppiok/EducationCenterManagement/files/8053095/default.docx"><img src="https://img.shields.io/badge/요구분석서-EB482C?style=plastic;logoColor=white" style="max-width: 100%;" height= "30"></a>  <a href="https://github.com/helloppiok/EducationCenterManagement/files/8053096/DDL.docx"><img src="https://img.shields.io/badge/테이블정의서(DDL)-F58E1C?style=plastic;logoColor=white" style="max-width: 100%;" height= "30"></a>   <a href="https://github.com/helloppiok/EducationCenterManagement/files/8053097/DML.docx"><img src="https://img.shields.io/badge/테이블정의서(DML)-22B14C?style=plastic;logoColor=white" style="max-width: 100%;" height= "30"></a>
-  <a href="https://github.com/helloppiok/EducationCenterManagement/files/8053108/2.zip"><img src="https://img.shields.io/badge/전체데이터-black?style=plastic;logoColor=white" style="max-width: 100%;" height= "30"></a>  <a href="https://github.com/helloppiok/EducationCenterManagement/files/8053101/5.PPT.pptx"><img src="https://img.shields.io/badge/PPT-026DE5?style=plastic;logoColor=white" style="max-width: 100%;" height= "30"></a>   <a href=" https://github.com/helloppiok/EducationCenterManagement/files/8053102/5.docx"><img src="https://img.shields.io/badge/최종요약본-7A297B?style=plastic;logoColor=white" style="max-width: 100%;" height= "30"></a>
+  <a href="https://github.com/helloppiok/EducationCenterManagement/files/8053108/2.zip"><img src="https://img.shields.io/badge/전체데이터-black?style=plastic;logoColor=white" style="max-width: 100%;" height= "30"></a>  <a href="https://github.com/helloppiok/EducationCenterManagement/files/8053101/5.PPT.pptx"><img src="https://img.shields.io/badge/PPT-026DE5?style=plastic;logoColor=white" style="max-width: 100%;" height= "30"></a>   <a href=" https://github.com/helloppiok/EducationCenterManagement/files/8053102/5.docx"><img src="https://img.shields.io/badge/최종요약본-7A297B?style=plastic;logoColor=white" style="max-width: 100%;" height= "30"></a>  
+		
+</div>  
+	
 <h5>ㅤ
 <h5>ㅤ
 
