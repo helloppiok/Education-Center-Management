@@ -8,7 +8,7 @@
 <h5>ㅤ
 
 # 📖 content
-1.  <a herf=#outline/>프로젝트 개요
+1.  <a href=#outline>프로젝트 개요</a>
 2. 개발환경
 3. 담당 기능 구현
 4.  프로젝트 파일
